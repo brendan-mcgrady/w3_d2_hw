@@ -1,6 +1,6 @@
 DROP TABLE IF EXISTS properties;
 
-CREATE TABLE property(
+CREATE TABLE properties(
   id SERIAL PRIMARY KEY,
   address VARCHAR,
   value INT,

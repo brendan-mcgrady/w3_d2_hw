@@ -21,5 +21,8 @@ require_relative('models/property')
     'build' => 'council'
   })
 
+  property1.save()
+  property2.save()
+  
   binding.pry
   nil
